@@ -1,1 +1,48 @@
+/* Importação de fontes (opcional, mas recomendado para consistência) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+/* --- Variáveis CSS (Cores, Fontes, Espaçamentos) --- */
+:root {
+    /* Cores */
+    --primary-color: #28a745; /* Verde do Agro */
+    --secondary-color: #007bff; /* Azul da Cidade */
+    --text-color: #333;
+    --light-text-color: #666;
+    --background-light: #f8f9fa; /* Cinza claro */
+    --background-dark: #e9ecef;  /* Cinza um pouco mais escuro */
+    --white-color: #ffffff;
+    --border-color: #dee2e6;
+
+    /* Fontes */
+    --font-family-base: 'Inter', sans-serif;
+    --font-size-base: 1rem; /* 16px */
+    --line-height-base: 1.6;
+
+    /* Espaçamentos */
+    --spacing-xs: 0.5rem;   /* 8px */
+    --spacing-sm: 1rem;     /* 16px */
+    --spacing-md: 1.5rem;   /* 24px */
+    --spacing-lg: 2rem;     /* 32px */
+    --spacing-xl: 3rem;     /* 48px */
+}
+
+/* --- Reset Básico e Estilos Globais --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Rolagem suave para âncoras */
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--text-color);
+    background-color: var(--white-color);
+    overflow-x: hidden; /* Evita scroll horizontal indesejado */
+}
 
